@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView question;
     Button answerA,answerB,answerC,answerD;
     Button submit;
+    //TextView currentQuest;
 
     int score=0;
     int totalQuestionsNbr= QuestionAnswers.question.length;
@@ -35,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         answerC=findViewById(R.id.answerC);
         answerD=findViewById(R.id.answerD);
         submit=findViewById(R.id.submit);
+        //currentQuest=findViewById(R.id.currentQuest);
+        //currentQuest.setText("Current question number : ");
 
         answerA.setOnClickListener(this);
         answerB.setOnClickListener(this);
