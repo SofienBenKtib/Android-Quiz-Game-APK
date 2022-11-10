@@ -73,15 +73,15 @@
             android:backgroundTint="@color/white"
             android:textColor="@color/black"/>
     </LinearLayout>
+
     <Button
+        android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="submit"
-        android:id="@+id/submit"
-        android:backgroundTint="@color/black"
         android:layout_below="@id/linearLayout"
         android:layout_marginTop="40dp"
-        />
+        android:backgroundTint="@color/black"
+        android:text="submit" />
 
 
 
