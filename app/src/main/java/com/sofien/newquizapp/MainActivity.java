@@ -23,10 +23,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     int totalQuestionsNbr= QuestionAnswers.question.length;
     int currentQuestion=0;
     String selectedAnswer="";
+    int uselessVariable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.splashScreen);
         setContentView(R.layout.activity_main);
 
         totalQuestions=findViewById(R.id.totalQuestions);
